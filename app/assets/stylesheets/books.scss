@@ -1,0 +1,117 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+
+h1 {
+  display: block;
+  font-size: 2em;
+  // ちなみにCSSで文字の大きさ（font-size）を指定していない場合は1文字の大きさは16pxですので、文字の大きさを変更するようなCSSを書いていない場合は「1em=16px」が基準となります。
+    margin-block-start: 0.67em;
+    // /* テキストの大きさに対する相対値 テキストの大きさによってmarginを調整する横方向（*/
+    margin-block-end: 0.67em;
+    // /* テキストの大きさに対する相対値 */
+    margin-inline-start: 0px;
+    // /* テキストの大きさに対する相対値 テキストの大きさによってmarginを調整する縦方向*/
+    margin-inline-end: 0px;
+    font-weight: bold;
+    // フォントの太さを指定する
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: 18px;
+    // テキストの行間を設定するために使用します
+    margin: 33px;
+    display: block;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions2 {
+  margin-bottom: 10px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a  {
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+html {
+  display: block;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 100px;
+}
